@@ -1,6 +1,6 @@
 import pygame
 from random import *
-import sys
+import os
 
 pygame.init()
 
@@ -12,7 +12,6 @@ pygame.display.set_caption("game")
 
 #배경 이미지
 background = pygame.image.load("D:\\Python_Workspace\\py_workspace\\background.png")
-#몬스터
 
 
 #캐릭터 불러오기
